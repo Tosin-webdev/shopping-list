@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+  background: #333;
+  margin-top: 5rem;
+}
+
+.section-head {
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  background: #fff;
+  padding: 3rem;
+  background: yellow;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
+  width: 500px;
+  margin: auto;
+}
+
+.alert {
+  margin-bottom: 1rem;
+  height: 1.25rem;
+  display: grid;
+  padding: 0.6rem;
+  align-items: center;
+  text-align: center;
+  font-size: 0.7rem;
+  border-radius: 0.25rem;
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+}
+.alert-danger {
+  color: white;
+  background: rgb(206, 36, 36);
+}
+.alert-success {
+  color: white;
+  background: rgb(33, 129, 33);
+}
+.mb {
+  margin-bottom: 2rem;
+}
+
+input,
+.submit-btn {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+input[type="text"],
+.submit-btn {
+  max-width: 340px;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding: 0 25px;
+  border-radius: 25px 0 0 25px;
+}
+
+input[type="submit"],
+.submit-btn {
+  position: relative;
+  left: -10px;
+  border-radius: 0 25px 25px 0;
+  height: 50px;
+  width: 150px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: rgb(33, 129, 33);
+  color: #fff;
+}
+
+.clear-btn {
+  background-color: rgb(33, 129, 33);
+  color: #fff;
+  padding: 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+input[type="submit"]:hover,
+.submit-btn:hover {
+  background: rgb(15, 107, 15);
+}
+
+.grocery-container {
+  visibility: hidden;
+}
+.show-container {
+  visibility: visible;
+}
+
+.grocery-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  transition: 0.5rem;
+  padding: 0.25rem 1rem;
+  border-radius: 0.5rem;
+  text-transform: capitalize;
+}
+
+.grocery-item:hover {
+  color: white;
+  background: #333333;
+}
+
+.edit-btn {
+  background: transparent;
+  color: rgb(33, 129, 33);
+  border-color: transparent;
+  cursor: pointer;
+  font-size: 0.7rem;
+  margin: 0 0.15rem;
+  transition: var(--transition);
+}
+.delete-btn {
+  background: transparent;
+  color: rgb(206, 36, 36);
+  border-color: transparent;
+  cursor: pointer;
+  font-size: 0.7rem;
+  margin: 0 0.15rem;
+  transition: var(--transition);
+}
+/* 
+h1 {
+  margin: 0 0 10px;
+  padding: 0;
+  font-size: 24px;
+}
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  transform: translate(-50%, -50%);
+}
+
+input {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+input[type="text"] {
+  width: 340px;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding: 0 25px;
+  border-radius: 25px 0 0 25px;
+}
+
+input[type="submit"] {
+  position: relative;
+  left: -10px;
+  border-radius: 0 25px 25px 0;
+  height: 50px;
+  width: 150px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: blueviolet;
+  color: #fff;
+}
+
+input[type="submit"]:hover {
+  background: blue;
+} */
